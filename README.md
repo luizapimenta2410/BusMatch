@@ -16,10 +16,6 @@ para recomendar uma linha de ônibus direta entre uma origem e um destino.
 3. Copie `.env.example` para `.env` e preencha com o seu token da SPTrans
 4. Abra `busmatch_sp.ipynb` e execute as células em ordem
 
-## Token da API
-Cada usuário deve gerar o seu em https://www.sptrans.com.br/desenvolvedores/
-O token NÃO está neste repositório.
-
 ## Estratégia adotada
 (resumo: raio escolhido, como as linhas são descobertas, critério de seleção)
 
