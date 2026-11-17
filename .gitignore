@@ -1,3 +1,20 @@
+# Segredos
+.env
+
+# Cache local de respostas da API
+cache/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
