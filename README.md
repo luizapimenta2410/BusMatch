@@ -1,14 +1,30 @@
 # BusMatch
-O sistema deverá gerar duas coordenadas geográficas (latitude e longitude), representando:
 
-- Origem: localização inicial do usuário.
+Aplicação em Python (Jupyter Notebook) que usa a API Olho Vivo da SPTrans
+para recomendar uma linha de ônibus direta entre uma origem e um destino.
 
-- Destino: local para o qual o usuário deseja se deslocar.
+## O que o projeto faz
+- Valida as coordenadas de origem e destino
+- Busca linhas e paradas na API Olho Vivo
+- Identifica linhas com paradas próximas à origem e ao destino
+- Recomenda uma linha, com embarque, desembarque e previsão de chegada
+- Exibe os resultados e um mapa interativo
 
-A partir dessas coordenadas, o algoritmo deverá consultar a API Olho Vivo e identificar linhas de ônibus que possuam pontos de parada próximos tanto da origem quanto do destino.
+## Como executar
+1. Clone o repositório
+2. Instale as dependências: `pip install -r requirements.txt`
+3. Copie `.env.example` para `.env` e preencha com o seu token da SPTrans
+4. Abra `busmatch_sp.ipynb` e execute as células em ordem
 
-A proximidade deverá ser definida por um raio de distância entre 1 e 1.000 metros, escolhido pelo grupo.
+## Token da API
+Cada usuário deve gerar o seu em https://www.sptrans.com.br/desenvolvedores/
+O token NÃO está neste repositório.
 
-Após identificar as linhas candidatas, o sistema deverá selecionar uma opção, identificar os pontos de embarque e desembarque e consultar a previsão de chegada do próximo ônibus ao ponto de embarque.
+## Estratégia adotada
+(resumo: raio escolhido, como as linhas são descobertas, critério de seleção)
 
-A aplicação deverá considerar apenas viagens diretas, sem troca de ônibus.
+## Limitações
+(a API pode não ter todas as linhas/previsões; só viagens diretas)
+
+## Integrantes
+(nomes do grupo)
