@@ -23,4 +23,4 @@ para recomendar uma linha de ônibus direta entre uma origem e um destino.
 (a API pode não ter todas as linhas/previsões; só viagens diretas)
 
 ## Integrantes
-Larissa, Luiza e Moisés
+Larissa, Luiza, Moisés e Thiago
